@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bg-main:#b80000;
+}
+.bg-dangerlight{
+    background-color: var(--bg-main);
+}
+.size-img{
+    width: 150px;
+}
+nav > .navbar-nav {
+    direction: rtl;
+}
+.nav-link:hover{
+    border-bottom: 2px solid var(--bg-main);
+}
+.number-most{
+    direction: rtl;
+    float: right;
+}
